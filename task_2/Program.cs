@@ -1,7 +1,7 @@
 ﻿Console.WriteLine("Определение max и min из двух чисел");
 Console.Write("Введите первое число: ");
-string numberString1 = Console.ReadLine();
-int number1 = int.Parse(numberString1);
+string? numberString1 = Console.ReadLine();
+int number1 = int.Parse(numberString1!);
 Console.Write("Введите второе число: ");
 string numberString2 = Console.ReadLine()!;
 int number2 = int.Parse(numberString2);
